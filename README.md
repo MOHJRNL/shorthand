@@ -4,7 +4,7 @@
 ![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-blue)
 ![Version](https://img.shields.io/badge/version-0.1.0-informational)
 
-> **In short:** Shorthand is a Claude Code plugin that asks Claude to write shorter answers: no preamble, no recap, no filler. It's off by default. Code, numbers, file paths and error text are kept exact. It adds one short line to the system prompt when on, and nothing else.
+> **In short:** Shorthand is a Claude Code plugin that asks Claude to write shorter answers: no preamble, no recap, no filler. It's off by default. Code, numbers, file paths and error text are kept exact. It adds a short rule (about 25 words) to the system prompt when on, and nothing else.
 
 **Keywords:** Claude Code output tokens, shorter Claude responses, reduce Claude Code cost, terse mode, caveman mode alternative, Claude Code output style, token saving plugin.
 
@@ -20,6 +20,8 @@
 - **Cheap:** one short section added to the system prompt, after the cache boundary. No hooks run per tool call, and no network calls.
 
 ## What it does and doesn't save
+
+Measured once, with the same question, one run each: a long answer about HTTP caching was 667 words with the style off and 440 at `full`, about 34% shorter. A short answer barely changes: a closure explanation was 127 words off and 123 at `full`.
 
 Shorthand reduces **output** tokens, the text Claude writes. Savings depend on the task. Answers that are mostly code or tool calls shrink less. Measure on your own workload before relying on a figure. Claude's input tokens are unchanged.
 

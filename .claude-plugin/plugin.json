@@ -1,7 +1,7 @@
 {
   "name": "shorthand",
-  "version": "0.1.1",
-  "description": "Terse output style (replaces Caveman). Off by default; costs one short line of system prompt when on.",
+  "version": "0.1.2",
+  "description": "Terse output style (replaces Caveman). Off by default; adds a short rule to the system prompt when on.",
   "userConfig": {
     "level": {
       "type": "string",
