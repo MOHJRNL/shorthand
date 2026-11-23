@@ -1,0 +1,9 @@
+# Shorthand
+
+> Claude Code plugin. An optional terse output style (lite or full) that reduces output tokens. Off by default. Adds one short line to the system prompt. Code, numbers, paths and errors are kept exact.
+
+Install (Claude Code): /plugin install shorthand --marketplace MOHJRNL/shorthand
+Other tools: copy the rule into AGENTS.md (Codex, OpenCode) or GEMINI.md (Gemini CLI) by hand.
+
+## Docs
+- [README](README.md): levels, install, savings caveats, FAQ

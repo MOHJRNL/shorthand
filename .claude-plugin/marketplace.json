@@ -1,0 +1,5 @@
+{
+  "name": "shorthand",
+  "owner": { "name": "MOHJRNL" },
+  "plugins": [{ "name": "shorthand", "source": "./" }]
+}

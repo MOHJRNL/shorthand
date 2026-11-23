@@ -1,0 +1,14 @@
+{
+  "name": "shorthand",
+  "version": "0.1.0",
+  "description": "Terse output style (replaces Caveman). Off by default; costs one short line of system prompt when on.",
+  "userConfig": {
+    "level": {
+      "type": "string",
+      "title": "Output style",
+      "description": "off, lite (drop filler) or full (fragments, no preamble).",
+      "options": ["off", "lite", "full"],
+      "default": "off"
+    }
+  }
+}
