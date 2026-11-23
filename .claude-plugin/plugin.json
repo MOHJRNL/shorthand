@@ -7,8 +7,15 @@
       "type": "string",
       "title": "Output style",
       "description": "off, lite (drop filler) or full (fragments, no preamble).",
-      "options": ["off", "lite", "full"],
+      "options": [
+        "off",
+        "lite",
+        "full"
+      ],
       "default": "off"
     }
+  },
+  "author": {
+    "name": "Noah Hendy"
   }
 }
