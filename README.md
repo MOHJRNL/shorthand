@@ -79,6 +79,12 @@ claude plugin test ./
 
 A recorded test run on a fresh clone: see [TEST-PROOF.md](TEST-PROOF.md).
 
+## What it sends and writes
+
+- **Sends to Claude:** one short rule added to the system prompt when the level is `lite` or `full`. Nothing is added when it is `off` (the default).
+- **Writes:** nothing to disk.
+- **Network:** none. No model calls and no other services.
+
 ## License and commercial use
 
 Free to use, copy and modify for non-commercial purposes, under the PolyForm Noncommercial License 1.0.0 (see `LICENSE`). For commercial use, contact the author for a separate license.
