@@ -23,7 +23,7 @@
 
 Measured once, with the same question, one run each: a long answer about HTTP caching was 667 words with the style off and 440 at `full`, about 34% shorter. A short answer barely changes: a closure explanation was 127 words off and 123 at `full`.
 
-Shorthand reduces **output** tokens, the text Claude writes. Savings depend on the task. Answers that are mostly code or tool calls shrink less. Measure on your own workload before relying on a figure. Claude's input tokens are unchanged.
+Shorthand reduces **output** tokens, the text Claude writes. Savings depend on the task. Answers that are mostly code or tool calls shrink less. Measure on your own workload before relying on a figure. The rule itself adds about 25 words of input to each request when on.
 
 ## Install
 
